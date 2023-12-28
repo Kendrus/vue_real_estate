@@ -1,79 +1,5 @@
-<script >
-</script>
-
 <template>
-  <div id="app">
-    <header>
-      <section id="en_tete">
-        <div class="container">
-          <div class="top_header">
-            <div class="img_top">
-              <img src="@/assets/images/logo-one.8bf8ceb.png" alt="" />
-            </div>
-            <div class="icone_top">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                width="24"
-                height="22"
-                viewBox="0 0 24 22"
-                fill="none"
-              >
-                <path d="M24 0H0V2.18182H24V0Z" fill="#0B090A" />
-                <path d="M24 9.81818H0V12H24V9.81818Z" fill="#0B090A" />
-                <path d="M24 19.6364H0V21.8182H24V19.6364Z" fill="#0B090A" />
-              </svg>
-            </div>
-            <div class="centre">
-              <div class="promo-top">promotion immobiliere</div>
-              <div>BTP</div>
-              <div>Mines</div>
-              <div>A propos</div>
-              <div>Contact</div>
-              <div></div>
-            </div>
-
-            <div class="search">
-              <svg
-                width="20"
-                height="20"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M11.5 21C16.7467 21 21 16.7467 21 11.5C21 6.25329 16.7467 2 11.5 2C6.25329 2 2 6.25329 2 11.5C2 16.7467 6.25329 21 11.5 21Z"
-                  stroke="#01418A"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-                <path
-                  d="M22 22L20 20"
-                  stroke="#01418A"
-                  stroke-width="1.5"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                />
-              </svg>
-            </div>
-          </div>
-        </div>
-        <header>
-          <div class="container">
-            <div class="acceuil">
-              <div class="text">Accueil</div>
-              <div>>></div>
-              <div class="promo">promotion immobiliere</div>
-            </div>
-          </div>
-        </header>
-      </section>
-    </header>
-
-    <router-view />
-
-<footer>
-  <section id="footer_one">
+ <section id="footer_one">
         <div class="container">
             <div class="card_footer">
                 <div class="col_one">
@@ -278,13 +204,12 @@
         </div>
     
     </section>
-</footer>
-   
-
-
-  </div>
 </template>
 
-<style scoped>
+<script>
+</script>
+
+<style>
+export default{};
 
 </style>

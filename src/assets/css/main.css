@@ -1,0 +1,8 @@
+@import "./bloc_img.css";
+@import "./en_tete.css";
+@import "./footer_one.css";
+
+/* Partials */
+@import "./partials/colors.css";
+@import "../fonts/fonts.css";
+

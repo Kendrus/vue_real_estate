@@ -1,0 +1,240 @@
+#footer_one{
+    background-color:var( --blue-four); 
+}
+#footer_one  .card_footer{
+    margin-top: 40px;
+ 
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 40px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+}
+#footer_one .col_one{
+grid-column:1/  span 3;
+}
+#footer_one .col_two{
+    grid-column-end: span 3;
+
+}
+#footer_one .col_tree{
+    grid-column-end: span 3;
+
+}
+#footer_one .col_four{
+    /* grid-column-end:10/ span 4; */
+    grid-column-end: span 3;
+
+
+}
+
+#footer_one .col_one .logo{
+    display: flex;
+    justify-content: start;
+    margin-top: 12px;
+}
+#footer_one .col_one .logo .img_logo{
+   width: 120px; 
+}
+#footer_one .col_one .tel{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+
+}
+#footer_one .col_one .tel .tc{
+    font-size: 14px;
+}
+#footer_one .col_one .message{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    
+}
+#footer_one .col_one .message .tc{
+    font-size: 14px;
+
+}
+#footer_one .col_one .mail{
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+#footer_one .col_one .mail .tc{
+    text-decoration: none;
+    color:var(--text-color-2);
+    margin-top: 5px;
+    font-size: 14px;
+}
+#footer_one .col_one .adresse{
+display: flex;
+align-items: center;
+margin-top: 12px;
+}
+#footer_one .col_one .adresse .tc{
+   font-size: 12px;
+}
+#footer_one .col_two .titre{
+    font-weight:600;
+    font-style: 14px;
+    margin-top: 8px;
+}
+#footer_one .col_two .tc_col{
+    margin-top: 15px;
+}
+#footer_one .col_two .tc{
+    text-decoration: none;
+    color: var(--ggg);
+    font-size:14px;
+}
+
+#footer_one .col_tree .titre{
+    font-weight:600;
+    font-style: 14px;
+    margin-top: 8px;
+}
+#footer_one .col_tree .tc_col{
+    margin-top: 10px;
+}
+#footer_one .col_tree .tc{
+    text-decoration: none;
+    color: var(--ggg);
+    font-size:14px;
+}
+#footer_one .col_four .titre{
+    font-weight:600;
+    font-style: 14px;
+    margin-top: 8px;
+}
+#footer_one .col_four .tc{
+    color: var(--text-color-2);
+    margin-top: 15px;
+    font-size: 14px;
+}
+#footer_one .col_four .card_input{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    display: flex;
+    gap: 5px;
+}
+
+#footer_one .col_four  input{
+    border: none;
+    width: 100%;
+    
+}
+::placeholder{
+    color:var(--input_color);
+    font-size: 16px;
+}
+/* pour enlever le focus qui sur le input */
+textarea:focus, input:focus{
+    outline: none;
+}
+#footer_one .col_four .btn {
+    
+
+}
+#footer_one .col_four .btn  button{
+    background-color: var(--btn_blue);
+    padding: 10px;
+    margin-top: 15px;
+    width: 100%;
+    border: none;
+    color: white;
+}
+@media (max-width: 426px) {
+  
+     #footer_one .col_one{
+        grid-column:1/ span 12;
+        }
+        #footer_one .col_two{
+            grid-column: 1/span 12;
+        
+        }
+        #footer_one .col_tree{
+            grid-column:1/span 12;
+        
+        }
+        #footer_one .col_four{
+            grid-columN:1/span 8;
+        
+        } 
+        /* #footer_one .col_one{
+            grid-column-end: span 12;
+            }
+            #footer_one .col_two{
+            grid-column-end: span 12;
+             
+            
+            }
+            #footer_one .col_tree{
+                grid-column-end: span 12;
+         
+            
+            }
+            #footer_one .col_four{
+            grid-column-end: span 12;
+             
+          } */
+    }
+  
+   
+
+  
+  @media (max-width: 768px) {
+     #footer_one .col_one{
+        grid-column:1/ span 12;
+        }
+        #footer_one .col_two{
+            grid-column: 1/span 12;
+        
+        }
+        #footer_one .col_tree{
+            grid-column:1/span 12;
+        
+        }
+        #footer_one .col_four{
+            grid-columN:1/span 8;
+        
+        } 
+        
+    /* tablet */
+   
+    }
+    
+
+  
+    
+  
+  
+  @media (max-width: 992px) {
+    #footer_one .col_one{
+        grid-column:1/ span 12;
+        }
+        #footer_one .col_two{
+            grid-column: 1/span 12;
+        
+        }
+        #footer_one .col_tree{
+            grid-column:1/span 12;
+        
+        }
+        #footer_one .col_four{
+            grid-columN:1/span 8;
+        
+        } 
+        
+     
+  }
+  
+
+/* #footer_one .col_four .btn {
+  
+    background-color: var(--btn_blue);
+   
+} */

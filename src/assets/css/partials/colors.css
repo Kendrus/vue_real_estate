@@ -1,0 +1,29 @@
+:root {
+    --primary-color: #3A0CA3;
+    --bg-gray: #f2f2f2;
+    --text-color-2: #2B2B2B;
+    --text-color-1: #0B090A;
+    --text-color-3: #808080;
+    --text-color-5:#D4D4D4;
+    --text-color-4:#AAAAAA;
+    --text-color-6:#D4D4D4;
+    
+
+
+    --blue-one:#4361EE;
+    --blue-two:rgb(87, 102, 119);
+    --blue-tree:rgb(224, 232, 241);
+    --blue-four:rgb(228, 237, 242);
+    --grey_one:rgb(171, 186, 201);
+    --grey_two:rgb(155, 172, 189);
+    --grey_tree:rgb(157, 174, 191);
+    --ggg:#01418a;
+
+--red_two:rgb(220, 86, 90);
+--input_color:rgb(200, 218, 228);
+
+
+       --red:rgb(205, 9, 15);
+    --btn_blue:rgb(20, 78, 146);
+
+}
